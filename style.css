@@ -1,0 +1,677 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+/* font-family: "Pinyon Script", cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*  font-family: "Montserrat", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+/*  font-family: "UnifrakturMaguntia", cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+/*  font-family: "Ballet", cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+/*    font-family: "Estonia", cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.05s ease;
+}
+html{
+    font-size:8px;
+}
+body {
+    margin: 0;
+    background-color: #d9d6d234;
+}
+
+/* ********************************* header ********************************* */
+
+#header-container{
+    height: 65rem;
+    min-width: 40rem;
+    overflow: hidden;
+}
+#header-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/img-05.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.6);
+}
+#header-txt{
+    color: white;
+    z-index: 1;
+}
+#header-txt h1{
+    font-family: "UnifrakturMaguntia", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 10em;
+    padding-right: 1rem;
+    text-align: center;
+    opacity: 0.9;
+    text-shadow: 2px 2px 10px black;
+    
+}
+#header-txt h2{
+    font-family: "Estonia", cursive;
+    font-weight: normal;
+    letter-spacing: 0.4rem;
+    font-size: 3em;
+    margin-top: -1rem;
+    text-shadow: 1px 1px 5px black;
+}
+
+
+
+/* ********************************* info ********************************* */
+
+#info-main{
+    margin-bottom: 6rem;
+}
+#info-container{
+    font-size: 8px;
+}
+
+#info-title{
+    margin: 8rem 0 4rem 0;
+}
+#info-title h1{
+    font-family: "UnifrakturMaguntia", cursive;
+    letter-spacing: 0.2rem;
+    font-size: 5rem;
+    opacity: 0.7;
+    text-align: center;
+    text-shadow: 3px 3px 15px #00000020;
+}
+#info-left-01{
+    background-image: url(./img/img-02.jpg);
+    background-position: center;
+    background-size: 100em;
+    color: white;
+    width: 30em;
+    aspect-ratio: 1 / 1;
+    margin-bottom: 2em;
+
+}
+#info-left-02{
+    background-image: url(./img/img-10.jpg);
+    background-position: center;
+    background-size: 70em;
+
+    color: white;
+    width: 30em;
+    aspect-ratio: 1 / 1;
+}
+#info-center-01{
+    background-image: url(./img/img-01.jpg);
+    background-position: center;
+    background-size: 110em;
+    
+    color: white;
+    width: 62em;
+    aspect-ratio: 1 / 1;
+    margin: 0 2em;
+}
+
+#info-right-01{
+    background-image: url(./img/img-07.jpg);
+    background-position: center;
+    background-size: cover;
+
+    color: white;
+    width: 31em;
+    aspect-ratio: 1 / 2;
+}
+#info-columns h2, #info-columns h3{
+    font-family: "UnifrakturMaguntia", cursive;
+    font-weight:lighter;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 2px 2px 8px black;
+}
+#info-columns h2{
+    font-size: 6em;
+}
+#info-columns h3{
+    font-size: 4em;
+}
+.info-box *{
+    transition: all 0.4s ease;
+}
+.info-box:hover .selectable{
+    backdrop-filter: saturate(0.8);
+}
+.info-box .selectable{
+    backdrop-filter: saturate(0.3);
+}
+
+
+
+/* ********************************* intention ********************************* */
+
+
+#intention-main{
+    font-size: 8px;
+}
+#intention-container{
+
+    background-image: url(./img/img-06.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    height: 80em;
+}
+#intention-txt{
+    color: white;
+    text-align: center;
+}
+
+#intention-txt .spacer{
+    background-color: rgb(255 255 255 / 24%);
+}
+
+#intention-txt h1{
+    color: white;
+    letter-spacing: 5px;
+    font-size: 7em;
+    font-family: "UnifrakturMaguntia", cursive;
+    margin-bottom: 0.1em;
+    font-style: normal;
+    font-weight: 400;
+}
+#intention-txt h3{
+    color: rgba(255, 255, 255, 0.776);
+    letter-spacing: 5px;
+    font-size: 2em;
+    font-family: "Estonia", cursive;
+    font-weight: 100;
+    margin-bottom: 0.5em;
+}
+
+#intention-txt h2{
+    color: rgba(255, 255, 255, 0.876);
+    letter-spacing: 5px;
+    font-size: 4em;
+    font-family: "UnifrakturMaguntia", cursive;
+    font-weight: 100;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#intention-txt p{
+    color: rgba(255, 255, 255, 0.776);
+    letter-spacing: 1px;
+    font-size: 1.4em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    width: 50em;
+    line-height: 1.8em;
+    
+}
+
+
+
+
+/* ********************************* name ********************************* */
+
+#name-main{
+    font-size: 8px;
+}
+#name-bc{
+    background-image: url(./img/img-02.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.1;
+}
+#name-container{
+    height: 90rem;
+    overflow: hidden;
+}
+#name{
+    height: 100%;
+}
+.name-txt-bc{
+    margin: 5rem;
+}
+#txt-bc-01{
+    top: 0;
+}
+#txt-bc-02{
+    bottom: 0;
+}
+#name h1{
+    font-family: "UnifrakturMaguntia", cursive;
+    font-size: calc(4vw + 12em);;
+    line-height: 0.75em;
+    font-weight: 100;
+
+    padding: 0.5em 10px;
+
+    
+    background-image: url(./img/img-10.jpg);
+    background-position-y: 7.5em;
+    background-position-x: center;
+    background-size: 8em;
+    
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0.6;
+}
+.name-txt-bc{
+    width: 1800px;
+    font-family: "UnifrakturMaguntia", cursive;
+    font-size: 1.3em;
+    font-weight: 100;
+
+    letter-spacing: 5px;
+    word-spacing: 5em;
+    line-height: 1.9em;
+    opacity: 0.5;
+
+    background-image: url(./img/img-03.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ********************************* letters ********************************* */
+#letter-main{
+    font-size: 8px
+}
+#letter-columns{
+    height: 90rem;
+}
+.letter-back{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+    background-position: center;
+    background-size: 149em;
+    opacity: 0;
+}
+#letter-columns h1{
+    font-size: calc(6em + 10vw);
+    font-weight: 100;
+    font-family: "UnifrakturMaguntia", cursive;
+    background-position: center;
+    background-size: 5em;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 2rem;
+    opacity: 0.8;
+    letter-spacing: 0;
+}
+#letter-columns .column:hover h1{
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+#letter-columns .opaque{
+    opacity: 0;
+}
+#letter-columns .column:hover .opaque{
+    opacity: 0.4;
+}
+#letter-columns .column:hover .letter-back, #letter-columns .column:hover h4{
+    opacity: 1!important;
+}
+/*
+#letter-columns .column:hover h1{
+    padding-bottom: 1em;
+
+}*/
+#letter-01 h1, #letter-01 .letter-back{
+    background-image: url(./img/img-01.jpg);
+}
+
+#letter-02 h1, #letter-02 .letter-back{
+    background-image: url(./img/img-02.jpg);
+}
+
+#letter-03 h1, #letter-03 .letter-back{
+    background-image: url(./img/img-12.jpg);
+}
+
+#letter-04 h1, #letter-04 .letter-back{
+    background-image: url(./img/img-08.jpg);
+}
+
+#letter-05 h1, #letter-05 .letter-back{
+    background-image: url(./img/img-10.jpg);
+}
+
+#letter-06 h1, #letter-06 .letter-back{
+    background-image: url(./img/img-11.jpg);
+}
+#letter-columns h4{
+    color: white;
+    font-family: "UnifrakturMaguntia", cursive;
+    font-size: 7em;
+    line-height: 1.5em;
+    opacity: 0;
+    font-weight: 100;
+}
+
+
+/* ********************************* soon ********************************* */
+#soon-main{
+    font-size: 8px;
+    overflow: hidden;
+    margin-bottom: 25rem;
+}
+#soon-bc{
+    background-image: url(./img/img-09.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    height: 41.2rem;
+    width: 100%;
+}
+
+#soon-png{
+    background-image: url(./img/png-01.png);
+    background-position: bottom;
+    background-size: 150rem;
+    height: 100%;
+    width: 150rem;
+}
+#soon-txt{
+    margin: 10rem 0 9rem 0;
+    opacity: 0.5;
+}
+#soon-txt h1{
+    font-family: "UnifrakturMaguntia", cursive;
+    font-size: 20em;
+    font-weight: 100;
+    letter-spacing: 3rem;
+    padding-left: 3rem;
+}
+
+#soon-container{
+    background-color: #ffffff6a;
+}
+.soon-column{
+    width: 40rem;
+    padding: 0 3rem;
+}
+.soon-column p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+    word-spacing: 1rem;
+    text-align: center;
+    padding: 0 2rem;
+}
+.soon-column h3{
+    font-family: "Estonia", cursive;
+    font-size: 3rem;
+    letter-spacing: 0.51rem;
+    word-spacing: 1rem;
+    text-align: center;
+    padding: 0 0 2rem 0rem;
+}
+.soon-column h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.51rem;
+    word-spacing: 1rem;
+    text-align: center;
+    padding: 0 0 0 0rem;
+}
+#soon{
+    margin-top: 9rem;
+}
+.right-border{
+    border-right: solid 1px rgba(0, 0, 0, 0.124);
+}
+#soon-box-04{
+    border-right: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.column{
+    flex: 1;
+    overflow: hidden;
+}
+.button-01{
+    margin-top: 3em;
+    padding: 1em 3em;
+    border-radius: 10px;
+    background-color: #00000000;
+    border: solid 1px #ffffff3b;
+    color: rgba(255, 255, 255, 0.745);
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.button-01:hover{
+    border: solid 1px #ffffff;
+    background-color: #0000009f;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+.selectable{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.spacer{
+    height: 3px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.583);
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+.spacer-2{
+    height: 3px;
+    width: 7rem;
+    background-color: #00000070;
+    margin: 2rem 0;
+    border-radius: 10px;
+}
+.spacer-3{
+    height: 4px;
+    width: 14rem;
+    background-color: #00000070;
+    margin: 0 0;
+    border-radius: 10px;
+}
+.h-center{
+    display: flex;
+    justify-content: center;
+}
+.v-center{
+    display: flex;
+    align-items: center;
+}
+.v-h-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.align-t{
+    text-align: center;
+}
+.v-box{
+    display: flex;
+    flex-direction: column;
+}
+.h-box{
+    display: flex;
+    flex-direction: row;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+.easy-transition{
+    transition: all 0.3s ease-in-out;
+}
+.opaque{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+    z-index: 0;
+}
+.opaque-02{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 0;
+}
+.inner-border-01{
+    width: calc(100% - 5rem);
+    height: calc(100% - 5rem);
+    border: solid 2px rgba(228, 156, 130, 0.766);
+    position: absolute;
+}
+.inner-border-02{
+    width: calc(100% - 10rem);
+    height: calc(100% - 15rem);
+    border: solid 2px rgba(228, 156, 130, 0.242);
+    position: absolute;
+}
+.invisible{
+    opacity: 0;
+}
+.z-2{
+    z-index: 1;
+}
+
+@media (max-width:600px) {
+    #header-container{
+        min-width: 0px!important;
+    }
+    #header-txt{
+        font-size: calc(1.1vw + 0.2rem);
+    }
+    #header-txt h2{
+        margin-top: -1rem;
+    }
+    
+    #name h1{
+        font-size: 16vw!important;
+    }
+
+    #soon-main{
+        font-size: 0.4vw;
+    }
+    
+    #soon{
+        flex-direction: column!important;
+    }
+
+}
+
+@media (max-width:1300px) {
+    #info-container{
+        font-size: 0.6vw;
+    }
+    
+    #letter-columns h1{
+        font-size: calc(10vw + 5rem);
+    }
+
+    .soon-2-columns{
+        display: flex;
+        flex-direction: column!important;
+    }
+    #soon-box-01, #soon-box-02, #soon-box-03, #soon-box-04{
+        border-right: none;
+    }
+    
+    .soon-box{
+        padding: 5em;
+    }
+    
+    #soon-main{
+        font-size: 0.5vw;
+    }
+
+    
+    #soon-png{
+        background-size: 120rem;
+        width: 120rem;
+    }
+    
+    #soon-bc{
+        height: 41.2em;
+        min-height: 260px
+    }
+}
+
+@media (max-width:850px) {
+    #info-container{
+        font-size: 1.3vw;
+    }
+    #info-columns{
+        flex-direction: column;
+    }
+    .info-box{
+        background-size: cover!important;
+        width: 60em!important;
+        aspect-ratio: 2 / 1!important;
+        margin: 0 0 2em 0!important;
+    }
+    
+    #info-columns h2, #info-columns h3{
+        font-size: 4em;
+    }
+    #intention-txt p{
+        width: 70vw;
+        
+    }
+    #intention-main{
+        font-size: 6px;
+    }
+    #name h1{
+        font-size: calc(1vw + 12em);;  
+    }
+    #letter-columns h1{
+        font-size: 10vw;
+    }
+
+}
+
+
